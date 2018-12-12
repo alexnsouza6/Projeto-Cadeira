@@ -38,10 +38,10 @@
     <div class = "container my-auto">
         <div class = "row">
             <div class = "col-lg-10 mx-auto">
-                <h1 class = "text-uppercase">
-                    <strong>
+                <h2 class = "text-uppercase">
+                    
                         FABRICAÇÃO SOB MEDIDA
-                    </strong>
+                    
                     <br>
                     <strong>
                         REFORMA
@@ -54,13 +54,13 @@
                     <strong>
                         IMPERMEABILIZAÇÃO
                     </strong>
-                </h1>
+                </h2>
                 <br>
             <hr>
             </div>
             <div class = "col-lg-8 mx-auto">
                 <p class = "text-faded mb-5">
-                    <h1 class = "text-uppercase">
+                    <h2 class = "text-uppercase">
                         <strong>
                             (61) 99859-4600
                             <br>
@@ -68,7 +68,7 @@
                             <i class="fab fa-whatsapp whatsapp-icon">
                             </i>
                         </strong>
-                    </h1>
+                    </h2>
                 </p>
                 <br>
                 <a class = "btn btn-primary btn-xl js-scroll-trigger" href = "#about">
@@ -175,7 +175,7 @@
     <div class = "container-fluid p-0">
         <div class = "row no-gutters popup-gallery">
             <div class = "col-lg-4 col-sm-6">
-                <a class = "portfolio-box" href = "img/portfolio/fullsize/1.jpg">
+                <%= link_to image_path("img/portfolio/fullsize/1.jpg"), class: "portfolio-box" do %>
                     <%= image_tag "img/portfolio/thumbnails/1.jpg", class: "img-fluid" %>
                     <div class = "portfolio-box-caption">
                         <div class = "portfolio-box-caption-content">
@@ -187,10 +187,10 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                <% end %>
             </div>
             <div class = "col-lg-4 col-sm-6">
-                <a class = "portfolio-box" href = "img/portfolio/fullsize/2.jpg">
+                <%= link_to image_path("img/portfolio/fullsize/2.jpg"), class: "portfolio-box" do %>
                     <%= image_tag "img/portfolio/thumbnails/2.jpg", class: "img-fluid" %>
                     <div class = "portfolio-box-caption">
                         <div class = "portfolio-box-caption-content">
@@ -202,10 +202,10 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                <% end %>
             </div>
             <div class = "col-lg-4 col-sm-6">
-                <a class = "portfolio-box" href = "img/portfolio/fullsize/3.jpg">
+                <%= link_to image_path("img/portfolio/fullsize/3.jpg"), class: "portfolio-box" do %>
                     <%= image_tag "img/portfolio/thumbnails/3.jpg", class: "img-fluid" %>
                     <div class = "portfolio-box-caption">
                         <div class = "portfolio-box-caption-content">
@@ -217,10 +217,10 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                <% end %>
             </div>
             <div class = "col-lg-4 col-sm-6">
-                <a class = "portfolio-box" href = "img/portfolio/fullsize/4.jpg">
+                <%= link_to image_path("img/portfolio/fullsize/4.jpg"), class: "portfolio-box" do %>
                     <%= image_tag "img/portfolio/thumbnails/4.jpg", class: "img-fluid" %>
                     <div class = "portfolio-box-caption">
                         <div class = "portfolio-box-caption-content">
@@ -232,10 +232,10 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                <% end %>
             </div>
             <div class = "col-lg-4 col-sm-6">
-                <a class = "portfolio-box" href = "img/portfolio/fullsize/5.jpg">
+                <%= link_to image_path("img/portfolio/fullsize/5.jpg"), class: "portfolio-box" do %>
                     <%= image_tag "img/portfolio/thumbnails/5.jpg", class: "img-fluid" %>
                     <div class = "portfolio-box-caption">
                         <div class = "portfolio-box-caption-content">
@@ -247,10 +247,10 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                <% end %>
             </div>
             <div class = "col-lg-4 col-sm-6">
-                <a class = "portfolio-box" href = "img/portfolio/fullsize/6.jpg">
+                <%= link_to image_path("img/portfolio/fullsize/6.jpg"), class: "portfolio-box" do %>
                     <%= image_tag "img/portfolio/thumbnails/6.jpg", class: "img-fluid" %>
                     <div class = "portfolio-box-caption">
                         <div class = "portfolio-box-caption-content">
@@ -262,7 +262,7 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                <% end %>
             </div>
         </div>
     </div>
